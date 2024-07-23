@@ -1,0 +1,252 @@
+/* navbar start */
+.container a{
+    cursor: pointer;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #dfc6c6 !important;
+    font-size: 1.3rem ;
+}
+.navbar-dark .navbar-nav .nav-link.active:hover{
+    color: #fff !important;
+}
+
+
+.navbar-dark .navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #dfc6c6 !important;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #ffffff !important;
+    transition: .3s ease-in-out;
+}
+
+.navbar{
+    font-size: 1.2rem;
+}
+
+
+/* end navbar */
+
+/* section1 start */
+.div{
+    display: flex;
+}
+.div1{
+    background-color: black;
+    height: 690px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div .img{
+    width: 650px;
+    height: 564.781px;
+    border: 1px solid white;
+}
+.div .img:hover{
+    border-color: #6d1390;
+    transition: .3s ease;
+}
+
+.div2{
+    height: 690px;
+    width: 50%;
+    background: url(c-images/bg\ minion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form-right:hover{
+    border-color: #6d1390;
+    transition: .3s ease;
+}
+.form-right{
+    border: .2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 650px;
+    height: 564.781px;
+    color: white;
+    padding: 20px 30px;
+}
+/* form Start */
+.form-right h1{
+    margin-top: 10px;
+}
+.form-right p{
+    margin-top: 10px;
+}
+.form-right .label1{
+    margin-top: 10px;
+}
+.form-right .label2{
+    margin-right: 47px;
+    margin-top: 10px;
+}
+
+.form-right .textarea .label3{
+    margin-right: 30px;
+}
+.form-right .textarea{
+    display: flex;
+    margin-top: 10px;
+}
+.form-right .input3{
+    width: 80.5%;
+}
+.form-right .textarea .input4{
+    width: 80.5%;
+}
+.btn{
+    background-color: white;
+    color: white !important;
+    font-weight: 500;
+    margin: 0 10px;
+    
+}
+.btn:hover{
+    transition: 0.3s ease;
+    border: 1px solid white !important;
+    background-color: white !important;
+    color: black !important;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.button button{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* form end */
+/* section1 end */
+
+@media only screen and (max-width: 1350px){
+    .div1{
+       height: 550px; 
+    }
+    .div .img{
+        height: 467.453px;
+        width: 538px;
+        border: 1px solid white;
+    }
+    .div2{
+       height: 550px; 
+    }
+    .div2 .form-right{
+        height: 467.453px;
+        width: 538px;
+    }
+    
+}
+@media only screen and (max-width: 1100px){
+    .div1{
+        height: 550px; 
+     }
+     .div .img{
+         height: 400;
+         width: 470.542px;
+         border: 1px solid white;
+     }
+     .div2 .form-right{
+         height: 465.438px;
+         width: 468.531px;
+     }
+     .form-right .label1{
+        width: 100%;
+     }
+     .input3{
+        margin-left: 8px;
+        width: 381px !important;
+     }
+     .textarea{
+        display: block !important;
+     }
+     .input4{
+        margin-left: 8px;
+        width: 381px !important;
+     }
+     .button{
+         margin: 0 !important;
+        }
+     .form-right h1{
+        font-size: 30px;
+        margin-top: 0 !important;
+    }
+    .form-right p{
+        font-size: 12px;
+        margin-top: 0 !important;
+        padding: 0 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    .div{
+        display: flex;
+        flex-direction: column;
+    }
+    .div2{
+        width: 100%;
+        height: 598px;
+    }
+    .div1{
+        height: 0px; 
+    }
+    .div .img{
+        height: 0 !important;
+        width: 0 !important;
+        border: 0 !important;
+    }
+}
+@media only screen and (max-width: 472px){
+    .div2{
+        width: 100%;
+    }
+    .form-right{
+        height: 366.922 !important;
+        width: 350px !important;
+        
+    }
+    .label1{
+        margin-left: 10px;
+    }
+    .input1{
+        width: 113px;
+    }
+    .input2{
+        width: 113px;
+    }
+    .form{
+        padding: 0 30px;
+        height: 366.922 !important;
+        width: 350px !important;
+    }
+    .label2{
+        margin-left: 10px;
+        width: 300px !important;
+    }
+    .input3{
+        width: 230px !important;
+    }
+    .label3{
+        margin-left: 10px;
+        width: 300px !important;
+    }
+    .input4{
+        width: 230px !important;
+    }
+}
