@@ -250,3 +250,9 @@
         width: 230px !important;
     }
 }
+
+@media only screen and (max-width: 390px){
+    .div2{
+        width: 100%;
+    }
+}
